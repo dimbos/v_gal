@@ -8,7 +8,7 @@ function slider(){
     }
     img[idx].classList.add('focused');
 
-    document.getElementById('pic-max').src = img[idx].src; 
+    document.querySelector('#pic-max').src = img[idx].src; 
 }
 
 // управление с интерфейсных кнопок
