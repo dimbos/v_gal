@@ -60,7 +60,7 @@ document.body.onclick = function (e) {
         }
 
         //меняем картинку
-        document.getElementById('pic-max').src = e.target.src; 
+        document.querySelector('#pic-max').src = e.target.src; 
         let parentDiv = e.target; 
         parentDiv.classList.add('focused');
     };
